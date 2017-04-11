@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9339AF301E9D9CB2001431C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9339AF2F1E9D9CB2001431C2 /* AppDelegate.swift */; };
+		9339AF321E9D9CB2001431C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9339AF311E9D9CB2001431C2 /* ViewController.swift */; };
+		9339AF351E9D9CB2001431C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9339AF331E9D9CB2001431C2 /* Main.storyboard */; };
+		9339AF371E9D9CB2001431C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9339AF361E9D9CB2001431C2 /* Assets.xcassets */; };
+		9339AF3A1E9D9CB2001431C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9339AF381E9D9CB2001431C2 /* LaunchScreen.storyboard */; };
+		9339AF451E9D9CB2001431C2 /* Mobile_SignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9339AF441E9D9CB2001431C2 /* Mobile_SignTests.swift */; };
+		9339AF501E9D9CB2001431C2 /* Mobile_SignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9339AF4F1E9D9CB2001431C2 /* Mobile_SignUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9339AF411E9D9CB2001431C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9339AF241E9D9CB1001431C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9339AF2B1E9D9CB1001431C2;
+			remoteInfo = "Mobile-Sign";
+		};
+		9339AF4C1E9D9CB2001431C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9339AF241E9D9CB1001431C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9339AF2B1E9D9CB1001431C2;
+			remoteInfo = "Mobile-Sign";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9339AF2C1E9D9CB2001431C2 /* Mobile-Sign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile-Sign.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9339AF2F1E9D9CB2001431C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9339AF311E9D9CB2001431C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9339AF341E9D9CB2001431C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9339AF361E9D9CB2001431C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9339AF391E9D9CB2001431C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9339AF3B1E9D9CB2001431C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9339AF401E9D9CB2001431C2 /* Mobile-SignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile-SignTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9339AF441E9D9CB2001431C2 /* Mobile_SignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_SignTests.swift; sourceTree = "<group>"; };
+		9339AF461E9D9CB2001431C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9339AF4B1E9D9CB2001431C2 /* Mobile-SignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile-SignUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9339AF4F1E9D9CB2001431C2 /* Mobile_SignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_SignUITests.swift; sourceTree = "<group>"; };
+		9339AF511E9D9CB2001431C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9339AF291E9D9CB1001431C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9339AF3D1E9D9CB2001431C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9339AF481E9D9CB2001431C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9339AF231E9D9CB1001431C2 = {
+			isa = PBXGroup;
+			children = (
+				9339AF2E1E9D9CB2001431C2 /* Mobile-Sign */,
+				9339AF431E9D9CB2001431C2 /* Mobile-SignTests */,
+				9339AF4E1E9D9CB2001431C2 /* Mobile-SignUITests */,
+				9339AF2D1E9D9CB2001431C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9339AF2D1E9D9CB2001431C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9339AF2C1E9D9CB2001431C2 /* Mobile-Sign.app */,
+				9339AF401E9D9CB2001431C2 /* Mobile-SignTests.xctest */,
+				9339AF4B1E9D9CB2001431C2 /* Mobile-SignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9339AF2E1E9D9CB2001431C2 /* Mobile-Sign */ = {
+			isa = PBXGroup;
+			children = (
+				9339AF2F1E9D9CB2001431C2 /* AppDelegate.swift */,
+				9339AF311E9D9CB2001431C2 /* ViewController.swift */,
+				9339AF331E9D9CB2001431C2 /* Main.storyboard */,
+				9339AF361E9D9CB2001431C2 /* Assets.xcassets */,
+				9339AF381E9D9CB2001431C2 /* LaunchScreen.storyboard */,
+				9339AF3B1E9D9CB2001431C2 /* Info.plist */,
+			);
+			path = "Mobile-Sign";
+			sourceTree = "<group>";
+		};
+		9339AF431E9D9CB2001431C2 /* Mobile-SignTests */ = {
+			isa = PBXGroup;
+			children = (
+				9339AF441E9D9CB2001431C2 /* Mobile_SignTests.swift */,
+				9339AF461E9D9CB2001431C2 /* Info.plist */,
+			);
+			path = "Mobile-SignTests";
+			sourceTree = "<group>";
+		};
+		9339AF4E1E9D9CB2001431C2 /* Mobile-SignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9339AF4F1E9D9CB2001431C2 /* Mobile_SignUITests.swift */,
+				9339AF511E9D9CB2001431C2 /* Info.plist */,
+			);
+			path = "Mobile-SignUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9339AF2B1E9D9CB1001431C2 /* Mobile-Sign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9339AF541E9D9CB2001431C2 /* Build configuration list for PBXNativeTarget "Mobile-Sign" */;
+			buildPhases = (
+				9339AF281E9D9CB1001431C2 /* Sources */,
+				9339AF291E9D9CB1001431C2 /* Frameworks */,
+				9339AF2A1E9D9CB1001431C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mobile-Sign";
+			productName = "Mobile-Sign";
+			productReference = 9339AF2C1E9D9CB2001431C2 /* Mobile-Sign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9339AF3F1E9D9CB2001431C2 /* Mobile-SignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9339AF571E9D9CB2001431C2 /* Build configuration list for PBXNativeTarget "Mobile-SignTests" */;
+			buildPhases = (
+				9339AF3C1E9D9CB2001431C2 /* Sources */,
+				9339AF3D1E9D9CB2001431C2 /* Frameworks */,
+				9339AF3E1E9D9CB2001431C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9339AF421E9D9CB2001431C2 /* PBXTargetDependency */,
+			);
+			name = "Mobile-SignTests";
+			productName = "Mobile-SignTests";
+			productReference = 9339AF401E9D9CB2001431C2 /* Mobile-SignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9339AF4A1E9D9CB2001431C2 /* Mobile-SignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9339AF5A1E9D9CB2001431C2 /* Build configuration list for PBXNativeTarget "Mobile-SignUITests" */;
+			buildPhases = (
+				9339AF471E9D9CB2001431C2 /* Sources */,
+				9339AF481E9D9CB2001431C2 /* Frameworks */,
+				9339AF491E9D9CB2001431C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9339AF4D1E9D9CB2001431C2 /* PBXTargetDependency */,
+			);
+			name = "Mobile-SignUITests";
+			productName = "Mobile-SignUITests";
+			productReference = 9339AF4B1E9D9CB2001431C2 /* Mobile-SignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9339AF241E9D9CB1001431C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Andrew Van Beek";
+				TargetAttributes = {
+					9339AF2B1E9D9CB1001431C2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RJ2SYXWQS9;
+						ProvisioningStyle = Automatic;
+					};
+					9339AF3F1E9D9CB2001431C2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RJ2SYXWQS9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9339AF2B1E9D9CB1001431C2;
+					};
+					9339AF4A1E9D9CB2001431C2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = RJ2SYXWQS9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9339AF2B1E9D9CB1001431C2;
+					};
+				};
+			};
+			buildConfigurationList = 9339AF271E9D9CB1001431C2 /* Build configuration list for PBXProject "Mobile-Sign" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9339AF231E9D9CB1001431C2;
+			productRefGroup = 9339AF2D1E9D9CB2001431C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9339AF2B1E9D9CB1001431C2 /* Mobile-Sign */,
+				9339AF3F1E9D9CB2001431C2 /* Mobile-SignTests */,
+				9339AF4A1E9D9CB2001431C2 /* Mobile-SignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9339AF2A1E9D9CB1001431C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9339AF3A1E9D9CB2001431C2 /* LaunchScreen.storyboard in Resources */,
+				9339AF371E9D9CB2001431C2 /* Assets.xcassets in Resources */,
+				9339AF351E9D9CB2001431C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9339AF3E1E9D9CB2001431C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9339AF491E9D9CB2001431C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9339AF281E9D9CB1001431C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9339AF321E9D9CB2001431C2 /* ViewController.swift in Sources */,
+				9339AF301E9D9CB2001431C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9339AF3C1E9D9CB2001431C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9339AF451E9D9CB2001431C2 /* Mobile_SignTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9339AF471E9D9CB2001431C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9339AF501E9D9CB2001431C2 /* Mobile_SignUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9339AF421E9D9CB2001431C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9339AF2B1E9D9CB1001431C2 /* Mobile-Sign */;
+			targetProxy = 9339AF411E9D9CB2001431C2 /* PBXContainerItemProxy */;
+		};
+		9339AF4D1E9D9CB2001431C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9339AF2B1E9D9CB1001431C2 /* Mobile-Sign */;
+			targetProxy = 9339AF4C1E9D9CB2001431C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9339AF331E9D9CB2001431C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9339AF341E9D9CB2001431C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9339AF381E9D9CB2001431C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9339AF391E9D9CB2001431C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9339AF521E9D9CB2001431C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9339AF531E9D9CB2001431C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9339AF551E9D9CB2001431C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RJ2SYXWQS9;
+				INFOPLIST_FILE = "Mobile-Sign/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "avb.Mobile-Sign";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9339AF561E9D9CB2001431C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RJ2SYXWQS9;
+				INFOPLIST_FILE = "Mobile-Sign/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "avb.Mobile-Sign";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9339AF581E9D9CB2001431C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RJ2SYXWQS9;
+				INFOPLIST_FILE = "Mobile-SignTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "avb.Mobile-SignTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobile-Sign.app/Mobile-Sign";
+			};
+			name = Debug;
+		};
+		9339AF591E9D9CB2001431C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RJ2SYXWQS9;
+				INFOPLIST_FILE = "Mobile-SignTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "avb.Mobile-SignTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobile-Sign.app/Mobile-Sign";
+			};
+			name = Release;
+		};
+		9339AF5B1E9D9CB2001431C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RJ2SYXWQS9;
+				INFOPLIST_FILE = "Mobile-SignUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "avb.Mobile-SignUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Mobile-Sign";
+			};
+			name = Debug;
+		};
+		9339AF5C1E9D9CB2001431C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RJ2SYXWQS9;
+				INFOPLIST_FILE = "Mobile-SignUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "avb.Mobile-SignUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Mobile-Sign";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9339AF271E9D9CB1001431C2 /* Build configuration list for PBXProject "Mobile-Sign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9339AF521E9D9CB2001431C2 /* Debug */,
+				9339AF531E9D9CB2001431C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9339AF541E9D9CB2001431C2 /* Build configuration list for PBXNativeTarget "Mobile-Sign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9339AF551E9D9CB2001431C2 /* Debug */,
+				9339AF561E9D9CB2001431C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9339AF571E9D9CB2001431C2 /* Build configuration list for PBXNativeTarget "Mobile-SignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9339AF581E9D9CB2001431C2 /* Debug */,
+				9339AF591E9D9CB2001431C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9339AF5A1E9D9CB2001431C2 /* Build configuration list for PBXNativeTarget "Mobile-SignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9339AF5B1E9D9CB2001431C2 /* Debug */,
+				9339AF5C1E9D9CB2001431C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9339AF241E9D9CB1001431C2 /* Project object */;
+}
