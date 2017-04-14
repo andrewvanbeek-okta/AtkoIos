@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1421" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Mobile_Sign" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +21,91 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rCc-fa-shQ">
+                                <rect key="frame" x="60" y="414" width="255" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0gz-eg-1ci">
+                                <rect key="frame" x="60" y="485" width="255" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Van Beek Tech.png" translatesAutoresizingMaskIntoConstraints="NO" id="hXJ-SL-M3c">
+                                <rect key="frame" x="67" y="143" width="240" height="209"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Jc-Bi-IJC">
+                                <rect key="frame" x="115" y="537" width="145" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Sign In Black.png"/>
+                                <connections>
+                                    <action selector="Signin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tiY-pV-WoJ"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hXJ-SL-M3c" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="0WQ-u5-vNn"/>
+                            <constraint firstItem="rCc-fa-shQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="394" id="8cR-sm-h4D"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="0gz-eg-1ci" secondAttribute="trailing" constant="44" id="BsJ-0F-TTl"/>
+                            <constraint firstItem="hXJ-SL-M3c" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="123" id="Fz4-6N-Eie"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rCc-fa-shQ" secondAttribute="trailing" constant="44" id="Hkn-A5-MA6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hXJ-SL-M3c" secondAttribute="trailing" constant="52" id="Z7i-3n-w93"/>
+                            <constraint firstItem="0gz-eg-1ci" firstAttribute="top" secondItem="rCc-fa-shQ" secondAttribute="bottom" constant="41" id="j9c-xW-9Go"/>
+                            <constraint firstItem="rCc-fa-shQ" firstAttribute="top" secondItem="hXJ-SL-M3c" secondAttribute="bottom" constant="62" id="m7v-zq-V4K"/>
+                            <constraint firstItem="0gz-eg-1ci" firstAttribute="top" secondItem="rCc-fa-shQ" secondAttribute="bottom" constant="41" id="qGg-SM-Ief"/>
+                            <constraint firstItem="0gz-eg-1ci" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="44" id="qkf-cY-B2C"/>
+                            <constraint firstItem="rCc-fa-shQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="44" id="utJ-lY-RIz"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="password" destination="0gz-eg-1ci" id="1w4-NE-lhE"/>
+                        <outlet property="username" destination="rCc-fa-shQ" id="O6L-Cm-NEz"/>
+                        <segue destination="IwQ-5i-RbJ" kind="show" identifier="signIn" id="Sxw-OC-ErH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="qsb-Qm-7rF">
+            <objects>
+                <viewController storyboardIdentifier="secondview" id="IwQ-5i-RbJ" customClass="SecondViewController" customModule="Mobile_Sign" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UCP-dR-fRY"/>
+                        <viewControllerLayoutGuide type="bottom" id="iP3-Y3-hW6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NWS-sj-L7c">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You Authenticated to your AD through Okta!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SsA-fV-1qQ">
+                                <rect key="frame" x="16" y="198" width="351" height="207"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SsA-fV-1qQ" firstAttribute="top" secondItem="UCP-dR-fRY" secondAttribute="bottom" constant="178" id="45s-Mw-Yf6"/>
+                            <constraint firstItem="iP3-Y3-hW6" firstAttribute="top" secondItem="SsA-fV-1qQ" secondAttribute="bottom" constant="262" id="9d7-xg-bSS"/>
+                            <constraint firstItem="SsA-fV-1qQ" firstAttribute="leading" secondItem="NWS-sj-L7c" secondAttribute="leading" constant="16" id="EbC-gJ-2TU"/>
+                            <constraint firstAttribute="trailing" secondItem="SsA-fV-1qQ" secondAttribute="trailing" constant="8" id="QcV-43-MYv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fJN-e6-2Uy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1116" y="113.79310344827587"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Sign In Black.png" width="500" height="210"/>
+        <image name="Van Beek Tech.png" width="800" height="800"/>
+    </resources>
 </document>
