@@ -9,6 +9,21 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>AppAuth.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>GoogleToolboxForMac.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>HDAugmentedReality.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Mobile-Sign.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,7 +42,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>00103D6C821BE85971C563025527BA5D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>25BA7D597CBBC52E7F72BEBFD1493CC3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>512047D202A6258B4D6F5EC21E929B51</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>842F72DCDC6161BB37D6B901E9301ED8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -37,7 +67,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BFAA93ACA6038E3D0C2F5455445CE5A8</key>
+		<key>BF1FB4C06F293DA91E51971C70F52C12</key>
 		<dict>
 			<key>primary</key>
 			<true/>

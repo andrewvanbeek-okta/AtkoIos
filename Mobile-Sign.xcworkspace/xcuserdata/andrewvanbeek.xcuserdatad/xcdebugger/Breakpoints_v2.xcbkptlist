@@ -10,12 +10,135 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mobile-Sign/ViewController.swift"
-            timestampString = "513702802.569936"
+            timestampString = "513701200.733488"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
-            landmarkName = "Signin(_:)"
+            startingLineNumber = "10"
+            endingLineNumber = "10">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mobile-Sign/RegisterController.swift"
+            timestampString = "513826816.549246"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "RegisterController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mobile-Sign/SecondViewController.swift"
+            timestampString = "514590167.599561"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "SecondViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mobile_Sign.SecondViewController.__deallocating_deinit"
+                  moduleName = "Mobile-Sign"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewvanbeek/Desktop/Mobilewithopenid/Mobile-Sign/Mobile-Sign/SecondViewController.swift"
+                  timestampString = "513879524.474034"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mobile_Sign.SecondViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Mobile_Sign.SecondViewController"
+                  moduleName = "Mobile-Sign"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewvanbeek/Desktop/Mobilewithopenid/Mobile-Sign/Mobile-Sign/SecondViewController.swift"
+                  timestampString = "513879524.48057"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "169">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mobile_Sign.SecondViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Mobile_Sign.SecondViewController"
+                  moduleName = "Mobile-Sign"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewvanbeek/Desktop/Mobilewithopenid/Mobile-Sign/Mobile-Sign/SecondViewController.swift"
+                  timestampString = "513879524.48337"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mobile_Sign.SecondViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Mobile_Sign.SecondViewController&gt;"
+                  moduleName = "Mobile-Sign"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewvanbeek/Desktop/Mobilewithopenid/Mobile-Sign/Mobile-Sign/SecondViewController.swift"
+                  timestampString = "513879524.485614"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mobile_Sign.SecondViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Mobile_Sign.SecondViewController&gt;"
+                  moduleName = "Mobile-Sign"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewvanbeek/Desktop/Mobilewithopenid/Mobile-Sign/Mobile-Sign/SecondViewController.swift"
+                  timestampString = "513879524.487604"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "87">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mobile-Sign/SecondViewController.swift"
+            timestampString = "515797576.990513"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "logThemOut()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,12 +149,90 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Mobile-Sign/ViewController.swift"
-            timestampString = "513702802.569936"
+            timestampString = "515965409.178903"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "177"
+            endingLineNumber = "177">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mobile-Sign/SecondViewController.swift"
+            timestampString = "515797576.990513"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "logThemOut()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mobile-Sign/ProfileViewController.swift"
+            timestampString = "515438095.656203"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mobile-Sign/ContactsController.swift"
+            timestampString = "514413328.795867"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mobile-Sign/MapsController.swift"
+            timestampString = "516045721.254713"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "locationManager(_:didUpdateLocations:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mobile-Sign/MapsController.swift"
+            timestampString = "516045721.254713"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "locationManager(_:didUpdateLocations:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -41,41 +242,107 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Mobile-Sign/ViewController.swift"
-            timestampString = "513701200.733488"
+            filePath = "AugController.swift"
+            timestampString = "514910462.238671"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "10"
-            endingLineNumber = "10">
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "locationManager(_:didUpdateLocations:)"
+            landmarkType = "7">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "globalinit_33_9519FF9E403A4E8BF36B39C2EE13444C_func0"
+                  symbolName = "Mobile_Sign.AugController.locationManager (__ObjC.CLLocationManager, didUpdateLocations : Swift.Array&lt;__ObjC.CLLocation&gt;) -&gt; ()"
                   moduleName = "Mobile-Sign"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/andrewvanbeek/Desktop/Mobile-Sign/Mobile-Sign/ViewController.swift"
-                  timestampString = "513701200.770748"
+                  urlString = "file:///Users/andrewvanbeek/Desktop/Mobilewithopenid/Mobile-Sign/AugController.swift"
+                  timestampString = "516166146.844968"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
-                  offsetFromSymbolStart = "4">
+                  startingLineNumber = "125"
+                  endingLineNumber = "125"
+                  offsetFromSymbolStart = "2095">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Mobile_Sign.cookie.unsafeMutableAddressor : Swift.String"
+                  symbolName = "Mobile_Sign.AugController.(locationManager (__ObjC.CLLocationManager, didUpdateLocations : Swift.Array&lt;__ObjC.CLLocation&gt;) -&gt; ()).(closure #1)"
                   moduleName = "Mobile-Sign"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/andrewvanbeek/Desktop/Mobile-Sign/Mobile-Sign/ViewController.swift"
-                  timestampString = "513701200.775896"
+                  urlString = "file:///Users/andrewvanbeek/Desktop/Mobilewithopenid/Mobile-Sign/AugController.swift"
+                  timestampString = "516166146.846301"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "13"
-                  endingLineNumber = "13"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125"
+                  offsetFromSymbolStart = "494">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AugController.swift"
+            timestampString = "514874788.42369"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "check(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AugController.swift"
+            timestampString = "514910462.238671"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "goBack()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mobile_Sign.AugController.goBack () -&gt; ()"
+                  moduleName = "Mobile-Sign"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewvanbeek/Desktop/Mobilewithopenid/Mobile-Sign/AugController.swift"
+                  timestampString = "516166146.971416"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mobile_Sign.AugController.(goBack () -&gt; ()).(closure #1)"
+                  moduleName = "Mobile-Sign"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewvanbeek/Desktop/Mobilewithopenid/Mobile-Sign/AugController.swift"
+                  timestampString = "516166146.973869"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
                   offsetFromSymbolStart = "4">
                </Location>
             </Locations>
@@ -87,13 +354,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Mobile-Sign/ViewController.swift"
-            timestampString = "513702802.569936"
+            filePath = "Mobile-Sign/MapsController.swift"
+            timestampString = "516045721.254713"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
-            landmarkName = "Signin(_:)"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "locationManager(_:didUpdateLocations:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -103,14 +370,92 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Mobile-Sign/ViewController.swift"
-            timestampString = "513702802.569936"
+            filePath = "Mobile-Sign/MapsController.swift"
+            timestampString = "516045721.254713"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128"
-            landmarkName = "Signin(_:)"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "locationManager(_:didUpdateLocations:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mobile-Sign/MapsController.swift"
+            timestampString = "516045721.254713"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "locationManager(_:didUpdateLocations:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mobile-Sign/ViewController.swift"
+            timestampString = "515965409.178903"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mobile-Sign/ViewController.swift"
+            timestampString = "516166141.568134"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_9519FF9E403A4E8BF36B39C2EE13444C_func0"
+                  moduleName = "Mobile-Sign"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewvanbeek/Desktop/Mobilewithopenid/Mobile-Sign/Mobile-Sign/ViewController.swift"
+                  timestampString = "516166146.732215"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mobile_Sign.cookie.unsafeMutableAddressor : Swift.String"
+                  moduleName = "Mobile-Sign"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrewvanbeek/Desktop/Mobilewithopenid/Mobile-Sign/Mobile-Sign/ViewController.swift"
+                  timestampString = "516166146.734402"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

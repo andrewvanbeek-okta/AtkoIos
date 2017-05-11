@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+
+class RegisterController : CommonViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        print(cookie)
+        
+    }
+
+
+}

@@ -7,6 +7,11 @@ target 'Mobile-Sign' do
 
   # Pods for Mobile-Sign
    pod 'Alamofire', '~> 4.4'
+	pod ‘AppAuth’
+	pod 'Google'
+	pod 'GoogleMaps'
+  	pod 'GooglePlaces'
+	pod 'HDAugmentedReality', :git => 'https://github.com/DanijelHuis/HDAugmentedReality.git'
 
   target 'Mobile-SignTests' do
     inherit! :search_paths

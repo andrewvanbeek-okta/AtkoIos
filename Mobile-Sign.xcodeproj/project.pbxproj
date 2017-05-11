@@ -14,13 +14,50 @@
 		93199CA71E9E679800918306 /* newyork.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 93199CA61E9E679800918306 /* newyork.mp4 */; };
 		93199CA91E9E87B700918306 /* Van Beek Tech.png in Resources */ = {isa = PBXBuildFile; fileRef = 93199CA81E9E87B700918306 /* Van Beek Tech.png */; };
 		93199CAB1E9E91A000918306 /* Sign In Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 93199CAA1E9E91A000918306 /* Sign In Black.png */; };
+		93277B2B1EAEB21300C0FDE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93277B291EAEB21300C0FDE4 /* Main.storyboard */; };
 		9339AF301E9D9CB2001431C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9339AF2F1E9D9CB2001431C2 /* AppDelegate.swift */; };
 		9339AF321E9D9CB2001431C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9339AF311E9D9CB2001431C2 /* ViewController.swift */; };
-		9339AF351E9D9CB2001431C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9339AF331E9D9CB2001431C2 /* Main.storyboard */; };
 		9339AF371E9D9CB2001431C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9339AF361E9D9CB2001431C2 /* Assets.xcassets */; };
 		9339AF3A1E9D9CB2001431C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9339AF381E9D9CB2001431C2 /* LaunchScreen.storyboard */; };
 		9339AF451E9D9CB2001431C2 /* Mobile_SignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9339AF441E9D9CB2001431C2 /* Mobile_SignTests.swift */; };
 		9339AF501E9D9CB2001431C2 /* Mobile_SignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9339AF4F1E9D9CB2001431C2 /* Mobile_SignUITests.swift */; };
+		937D5CB31EBE3F2C00247D9A /* CustomSafari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D5CB21EBE3F2C00247D9A /* CustomSafari.swift */; };
+		93D3F3B61EA69D9D00902FE6 /* app background.png in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F3B51EA69D9D00902FE6 /* app background.png */; };
+		93D3F3BA1EA6FE9D00902FE6 /* Profile (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F3B91EA6FE9D00902FE6 /* Profile (1).png */; };
+		93D3F3BC1EA700F000902FE6 /* Contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F3BB1EA700F000902FE6 /* Contacts.png */; };
+		93D3F3C01EA7055500902FE6 /* Places (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F3BF1EA7055500902FE6 /* Places (2).png */; };
+		93D3F3C41EA72CB800902FE6 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F3C31EA72CB800902FE6 /* MyCollectionViewCell.swift */; };
+		93D3F3C61EA7B68F00902FE6 /* Apps.png in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F3C51EA7B68F00902FE6 /* Apps.png */; };
+		93D3F3C81EA7CA1100902FE6 /* contactit.png in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F3C71EA7CA1100902FE6 /* contactit.png */; };
+		93D3F3CA1EA7CD3600902FE6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F3C91EA7CD3600902FE6 /* ProfileViewController.swift */; };
+		93D3F3CC1EA7F15200902FE6 /* app background (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F3CB1EA7F15200902FE6 /* app background (1).png */; };
+		93D3F3CE1EA92DCC00902FE6 /* ContactsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F3CD1EA92DCC00902FE6 /* ContactsController.swift */; };
+		93D3F3D01EA95BFA00902FE6 /* tablebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F3CF1EA95BFA00902FE6 /* tablebg.png */; };
+		93D3F3D61EAC60D100902FE6 /* MapsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F3D51EAC60D100902FE6 /* MapsController.swift */; };
+		93D3F3D81EAC678F00902FE6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D3F3D71EAC678F00902FE6 /* CoreLocation.framework */; };
+		93DDA7091EA04F2D0024D1A3 /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DDA7081EA04F2D0024D1A3 /* models.swift */; };
+		93DDA70B1EA055200024D1A3 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93DDA70A1EA055200024D1A3 /* RegisterController.swift */; };
+		93DDA70D1EA0599F0024D1A3 /* sign-in-transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DDA70C1EA0599F0024D1A3 /* sign-in-transparent.png */; };
+		93DDA70F1EA05AAF0024D1A3 /* Sign In light finish.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DDA70E1EA05AAF0024D1A3 /* Sign In light finish.png */; };
+		93DDA7111EA06E490024D1A3 /* Register User.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DDA7101EA06E490024D1A3 /* Register User.png */; };
+		93DDA7151EA0733B0024D1A3 /* createbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DDA7141EA0733B0024D1A3 /* createbutton.png */; };
+		93E700681EAF1FBC00534E69 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E700671EAF1FBC00534E69 /* CoreMotion.framework */; };
+		93E7006A1EAF21E300534E69 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E700691EAF21E300534E69 /* MapKit.framework */; };
+		93E700701EAF9B0A00534E69 /* AugController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E7006F1EAF9B0A00534E69 /* AugController.swift */; };
+		93E700721EAFAD3B00534E69 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E700711EAFAD3B00534E69 /* ARViewController.swift */; };
+		93E700741EAFAD4000534E69 /* ARTrackingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E700731EAFAD4000534E69 /* ARTrackingManager.swift */; };
+		93E700761EAFAD4C00534E69 /* ARConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E700751EAFAD4C00534E69 /* ARConfiguration.swift */; };
+		93E700781EAFAD5400534E69 /* ARAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E700771EAFAD5400534E69 /* ARAnnotationView.swift */; };
+		93E7007A1EAFAD5D00534E69 /* ARAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E700791EAFAD5D00534E69 /* ARAnnotation.swift */; };
+		93E7007C1EAFADB200534E69 /* DebugMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E7007B1EAFADB200534E69 /* DebugMapViewController.swift */; };
+		93E7007E1EAFBDDE00534E69 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E7007D1EAFBDDD00534E69 /* Place.swift */; };
+		93E700801EAFBDE300534E69 /* PlacesLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E7007F1EAFBDE300534E69 /* PlacesLoader.swift */; };
+		93E700821EAFD0C000534E69 /* PlaceAnnotationswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E700811EAFD0C000534E69 /* PlaceAnnotationswift.swift */; };
+		93E700841EB0197600534E69 /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E700831EB0197500534E69 /* AnnotationView.swift */; };
+		93E700861EB0F16A00534E69 /* UpdaterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E700851EB0F16A00534E69 /* UpdaterController.swift */; };
+		93E700881EB8F23200534E69 /* IT.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E700871EB8F23200534E69 /* IT.png */; };
+		93E7008A1EB8F5B600534E69 /* viewer.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E700891EB8F5B600534E69 /* viewer.png */; };
+		93E7008C1EB8F80500534E69 /* Updater.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E7008B1EB8F80400534E69 /* Updater.png */; };
 		E64B1604F96472E31BF46616 /* Pods_Mobile_SignUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7574E3E9A50CE40F8CE5E100 /* Pods_Mobile_SignUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,14 +86,14 @@
 		7574E3E9A50CE40F8CE5E100 /* Pods_Mobile_SignUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobile_SignUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86E55E49DE50686827E62043 /* Pods-Mobile-Sign.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile-Sign.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mobile-Sign/Pods-Mobile-Sign.release.xcconfig"; sourceTree = "<group>"; };
 		93199CA01E9DC8AA00918306 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		93199CA21E9DF23900918306 /* commonviewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commonviewcontroller.swift; sourceTree = "<group>"; };
+		93199CA21E9DF23900918306 /* commonviewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = commonviewcontroller.swift; path = ../commonviewcontroller.swift; sourceTree = "<group>"; };
 		93199CA61E9E679800918306 /* newyork.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = newyork.mp4; sourceTree = "<group>"; };
 		93199CA81E9E87B700918306 /* Van Beek Tech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Van Beek Tech.png"; sourceTree = "<group>"; };
 		93199CAA1E9E91A000918306 /* Sign In Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign In Black.png"; sourceTree = "<group>"; };
+		93277B2A1EAEB21300C0FDE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9339AF2C1E9D9CB2001431C2 /* Mobile-Sign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile-Sign.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9339AF2F1E9D9CB2001431C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9339AF311E9D9CB2001431C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9339AF341E9D9CB2001431C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9339AF361E9D9CB2001431C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9339AF391E9D9CB2001431C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9339AF3B1E9D9CB2001431C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,6 +103,43 @@
 		9339AF4B1E9D9CB2001431C2 /* Mobile-SignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile-SignUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9339AF4F1E9D9CB2001431C2 /* Mobile_SignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_SignUITests.swift; sourceTree = "<group>"; };
 		9339AF511E9D9CB2001431C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		937D5CB21EBE3F2C00247D9A /* CustomSafari.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSafari.swift; sourceTree = "<group>"; };
+		93D3F3B51EA69D9D00902FE6 /* app background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app background.png"; sourceTree = "<group>"; };
+		93D3F3B91EA6FE9D00902FE6 /* Profile (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Profile (1).png"; sourceTree = "<group>"; };
+		93D3F3BB1EA700F000902FE6 /* Contacts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contacts.png; sourceTree = "<group>"; };
+		93D3F3BF1EA7055500902FE6 /* Places (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Places (2).png"; sourceTree = "<group>"; };
+		93D3F3C31EA72CB800902FE6 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		93D3F3C51EA7B68F00902FE6 /* Apps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apps.png; sourceTree = "<group>"; };
+		93D3F3C71EA7CA1100902FE6 /* contactit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contactit.png; sourceTree = "<group>"; };
+		93D3F3C91EA7CD3600902FE6 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		93D3F3CB1EA7F15200902FE6 /* app background (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app background (1).png"; sourceTree = "<group>"; };
+		93D3F3CD1EA92DCC00902FE6 /* ContactsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsController.swift; sourceTree = "<group>"; };
+		93D3F3CF1EA95BFA00902FE6 /* tablebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tablebg.png; sourceTree = "<group>"; };
+		93D3F3D51EAC60D100902FE6 /* MapsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsController.swift; sourceTree = "<group>"; };
+		93D3F3D71EAC678F00902FE6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		93DDA7081EA04F2D0024D1A3 /* models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
+		93DDA70A1EA055200024D1A3 /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		93DDA70C1EA0599F0024D1A3 /* sign-in-transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign-in-transparent.png"; sourceTree = "<group>"; };
+		93DDA70E1EA05AAF0024D1A3 /* Sign In light finish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign In light finish.png"; sourceTree = "<group>"; };
+		93DDA7101EA06E490024D1A3 /* Register User.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Register User.png"; sourceTree = "<group>"; };
+		93DDA7141EA0733B0024D1A3 /* createbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = createbutton.png; sourceTree = "<group>"; };
+		93E700671EAF1FBC00534E69 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		93E700691EAF21E300534E69 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		93E7006F1EAF9B0A00534E69 /* AugController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AugController.swift; path = ../AugController.swift; sourceTree = "<group>"; };
+		93E700711EAFAD3B00534E69 /* ARViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ARViewController.swift; path = "../../../../Downloads/Places /Places/HDAugmentedReality/Classes/ARViewController.swift"; sourceTree = "<group>"; };
+		93E700731EAFAD4000534E69 /* ARTrackingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ARTrackingManager.swift; path = "../../../../Downloads/Places /Places/HDAugmentedReality/Classes/ARTrackingManager.swift"; sourceTree = "<group>"; };
+		93E700751EAFAD4C00534E69 /* ARConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ARConfiguration.swift; path = "../../../../Downloads/Places /Places/HDAugmentedReality/Classes/ARConfiguration.swift"; sourceTree = "<group>"; };
+		93E700771EAFAD5400534E69 /* ARAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ARAnnotationView.swift; path = "../../../../Downloads/Places /Places/HDAugmentedReality/Classes/ARAnnotationView.swift"; sourceTree = "<group>"; };
+		93E700791EAFAD5D00534E69 /* ARAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ARAnnotation.swift; path = "../../../../Downloads/Places /Places/HDAugmentedReality/Classes/ARAnnotation.swift"; sourceTree = "<group>"; };
+		93E7007B1EAFADB200534E69 /* DebugMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DebugMapViewController.swift; path = "../../../../Downloads/Places /Places/HDAugmentedReality/Classes/Debug/DebugMapViewController.swift"; sourceTree = "<group>"; };
+		93E7007D1EAFBDDD00534E69 /* Place.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Place.swift; path = "../../../../Downloads/Places /Places/Place.swift"; sourceTree = "<group>"; };
+		93E7007F1EAFBDE300534E69 /* PlacesLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlacesLoader.swift; path = "../../../../Downloads/Places /Places/PlacesLoader.swift"; sourceTree = "<group>"; };
+		93E700811EAFD0C000534E69 /* PlaceAnnotationswift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceAnnotationswift.swift; sourceTree = "<group>"; };
+		93E700831EB0197500534E69 /* AnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
+		93E700851EB0F16A00534E69 /* UpdaterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdaterController.swift; sourceTree = "<group>"; };
+		93E700871EB8F23200534E69 /* IT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IT.png; path = ../../../../Downloads/IT.png; sourceTree = "<group>"; };
+		93E700891EB8F5B600534E69 /* viewer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = viewer.png; path = ../../../../Downloads/viewer.png; sourceTree = "<group>"; };
+		93E7008B1EB8F80400534E69 /* Updater.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Updater.png; path = ../../../../Downloads/Updater.png; sourceTree = "<group>"; };
 		F2A9D86FADC7A282FF86DB98 /* Pods_Mobile_Sign.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobile_Sign.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F742A02AE4E49602D69445CA /* Pods_Mobile_SignTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobile_SignTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF3D71E4AAB453B24FF73534 /* Pods-Mobile-SignTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile-SignTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mobile-SignTests/Pods-Mobile-SignTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +150,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93E7006A1EAF21E300534E69 /* MapKit.framework in Frameworks */,
+				93E700681EAF1FBC00534E69 /* CoreMotion.framework in Frameworks */,
+				93D3F3D81EAC678F00902FE6 /* CoreLocation.framework in Frameworks */,
 				41879AED43AA09CDE91C1E98 /* Pods_Mobile_Sign.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -115,6 +192,9 @@
 		875C7C7CC4A3D027C4EDC730 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				93E700691EAF21E300534E69 /* MapKit.framework */,
+				93E700671EAF1FBC00534E69 /* CoreMotion.framework */,
+				93D3F3D71EAC678F00902FE6 /* CoreLocation.framework */,
 				F2A9D86FADC7A282FF86DB98 /* Pods_Mobile_Sign.framework */,
 				F742A02AE4E49602D69445CA /* Pods_Mobile_SignTests.framework */,
 				7574E3E9A50CE40F8CE5E100 /* Pods_Mobile_SignUITests.framework */,
@@ -125,7 +205,6 @@
 		9339AF231E9D9CB1001431C2 = {
 			isa = PBXGroup;
 			children = (
-				93199CA21E9DF23900918306 /* commonviewcontroller.swift */,
 				9339AF2E1E9D9CB2001431C2 /* Mobile-Sign */,
 				9339AF431E9D9CB2001431C2 /* Mobile-SignTests */,
 				9339AF4E1E9D9CB2001431C2 /* Mobile-SignUITests */,
@@ -148,16 +227,51 @@
 		9339AF2E1E9D9CB2001431C2 /* Mobile-Sign */ = {
 			isa = PBXGroup;
 			children = (
+				93E7006F1EAF9B0A00534E69 /* AugController.swift */,
+				93199CA21E9DF23900918306 /* commonviewcontroller.swift */,
 				9339AF2F1E9D9CB2001431C2 /* AppDelegate.swift */,
 				9339AF311E9D9CB2001431C2 /* ViewController.swift */,
+				937D5CB21EBE3F2C00247D9A /* CustomSafari.swift */,
+				93E7008B1EB8F80400534E69 /* Updater.png */,
+				93DDA7081EA04F2D0024D1A3 /* models.swift */,
 				93199CA01E9DC8AA00918306 /* SecondViewController.swift */,
-				9339AF331E9D9CB2001431C2 /* Main.storyboard */,
+				93D3F3CD1EA92DCC00902FE6 /* ContactsController.swift */,
+				93E7007F1EAFBDE300534E69 /* PlacesLoader.swift */,
+				93E7007D1EAFBDDD00534E69 /* Place.swift */,
+				93E700811EAFD0C000534E69 /* PlaceAnnotationswift.swift */,
+				93E700891EB8F5B600534E69 /* viewer.png */,
+				93D3F3C91EA7CD3600902FE6 /* ProfileViewController.swift */,
+				93277B291EAEB21300C0FDE4 /* Main.storyboard */,
+				93E700831EB0197500534E69 /* AnnotationView.swift */,
+				93E700711EAFAD3B00534E69 /* ARViewController.swift */,
+				93E700731EAFAD4000534E69 /* ARTrackingManager.swift */,
+				93E700771EAFAD5400534E69 /* ARAnnotationView.swift */,
+				93E700791EAFAD5D00534E69 /* ARAnnotation.swift */,
+				93E7007B1EAFADB200534E69 /* DebugMapViewController.swift */,
+				93E700751EAFAD4C00534E69 /* ARConfiguration.swift */,
+				93DDA70A1EA055200024D1A3 /* RegisterController.swift */,
+				93E700871EB8F23200534E69 /* IT.png */,
+				93DDA70E1EA05AAF0024D1A3 /* Sign In light finish.png */,
 				9339AF361E9D9CB2001431C2 /* Assets.xcassets */,
 				9339AF381E9D9CB2001431C2 /* LaunchScreen.storyboard */,
 				9339AF3B1E9D9CB2001431C2 /* Info.plist */,
+				93D3F3D51EAC60D100902FE6 /* MapsController.swift */,
+				93E700851EB0F16A00534E69 /* UpdaterController.swift */,
+				93DDA7101EA06E490024D1A3 /* Register User.png */,
 				93199CA61E9E679800918306 /* newyork.mp4 */,
 				93199CA81E9E87B700918306 /* Van Beek Tech.png */,
+				93D3F3B51EA69D9D00902FE6 /* app background.png */,
+				93DDA70C1EA0599F0024D1A3 /* sign-in-transparent.png */,
+				93DDA7141EA0733B0024D1A3 /* createbutton.png */,
+				93D3F3B91EA6FE9D00902FE6 /* Profile (1).png */,
+				93D3F3C31EA72CB800902FE6 /* MyCollectionViewCell.swift */,
 				93199CAA1E9E91A000918306 /* Sign In Black.png */,
+				93D3F3BB1EA700F000902FE6 /* Contacts.png */,
+				93D3F3BF1EA7055500902FE6 /* Places (2).png */,
+				93D3F3C71EA7CA1100902FE6 /* contactit.png */,
+				93D3F3C51EA7B68F00902FE6 /* Apps.png */,
+				93D3F3CF1EA95BFA00902FE6 /* tablebg.png */,
+				93D3F3CB1EA7F15200902FE6 /* app background (1).png */,
 			);
 			path = "Mobile-Sign";
 			sourceTree = "<group>";
@@ -299,11 +413,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93DDA70D1EA0599F0024D1A3 /* sign-in-transparent.png in Resources */,
+				93D3F3BA1EA6FE9D00902FE6 /* Profile (1).png in Resources */,
+				93D3F3BC1EA700F000902FE6 /* Contacts.png in Resources */,
+				93E7008A1EB8F5B600534E69 /* viewer.png in Resources */,
+				93E700881EB8F23200534E69 /* IT.png in Resources */,
 				9339AF3A1E9D9CB2001431C2 /* LaunchScreen.storyboard in Resources */,
+				93DDA7111EA06E490024D1A3 /* Register User.png in Resources */,
 				93199CA71E9E679800918306 /* newyork.mp4 in Resources */,
 				93199CA91E9E87B700918306 /* Van Beek Tech.png in Resources */,
+				93DDA70F1EA05AAF0024D1A3 /* Sign In light finish.png in Resources */,
 				9339AF371E9D9CB2001431C2 /* Assets.xcassets in Resources */,
-				9339AF351E9D9CB2001431C2 /* Main.storyboard in Resources */,
+				93D3F3D01EA95BFA00902FE6 /* tablebg.png in Resources */,
+				93D3F3C81EA7CA1100902FE6 /* contactit.png in Resources */,
+				93DDA7151EA0733B0024D1A3 /* createbutton.png in Resources */,
+				93D3F3CC1EA7F15200902FE6 /* app background (1).png in Resources */,
+				93D3F3B61EA69D9D00902FE6 /* app background.png in Resources */,
+				93E7008C1EB8F80500534E69 /* Updater.png in Resources */,
+				93D3F3C61EA7B68F00902FE6 /* Apps.png in Resources */,
+				93277B2B1EAEB21300C0FDE4 /* Main.storyboard in Resources */,
+				93D3F3C01EA7055500902FE6 /* Places (2).png in Resources */,
 				93199CAB1E9E91A000918306 /* Sign In Black.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,10 +596,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93DDA7091EA04F2D0024D1A3 /* models.swift in Sources */,
+				93E7007A1EAFAD5D00534E69 /* ARAnnotation.swift in Sources */,
+				93D3F3C41EA72CB800902FE6 /* MyCollectionViewCell.swift in Sources */,
 				93199CA11E9DC8AA00918306 /* SecondViewController.swift in Sources */,
+				93E700821EAFD0C000534E69 /* PlaceAnnotationswift.swift in Sources */,
+				93DDA70B1EA055200024D1A3 /* RegisterController.swift in Sources */,
+				93E700741EAFAD4000534E69 /* ARTrackingManager.swift in Sources */,
+				93D3F3CE1EA92DCC00902FE6 /* ContactsController.swift in Sources */,
+				93E700721EAFAD3B00534E69 /* ARViewController.swift in Sources */,
+				93E700781EAFAD5400534E69 /* ARAnnotationView.swift in Sources */,
+				937D5CB31EBE3F2C00247D9A /* CustomSafari.swift in Sources */,
 				93199CA31E9DF23900918306 /* commonviewcontroller.swift in Sources */,
+				93D3F3D61EAC60D100902FE6 /* MapsController.swift in Sources */,
+				93E700761EAFAD4C00534E69 /* ARConfiguration.swift in Sources */,
+				93E700841EB0197600534E69 /* AnnotationView.swift in Sources */,
+				93E7007C1EAFADB200534E69 /* DebugMapViewController.swift in Sources */,
+				93E700801EAFBDE300534E69 /* PlacesLoader.swift in Sources */,
 				9339AF321E9D9CB2001431C2 /* ViewController.swift in Sources */,
+				93D3F3CA1EA7CD3600902FE6 /* ProfileViewController.swift in Sources */,
+				93E700701EAF9B0A00534E69 /* AugController.swift in Sources */,
 				9339AF301E9D9CB2001431C2 /* AppDelegate.swift in Sources */,
+				93E7007E1EAFBDDE00534E69 /* Place.swift in Sources */,
+				93E700861EB0F16A00534E69 /* UpdaterController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,10 +654,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9339AF331E9D9CB2001431C2 /* Main.storyboard */ = {
+		93277B291EAEB21300C0FDE4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9339AF341E9D9CB2001431C2 /* Base */,
+				93277B2A1EAEB21300C0FDE4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

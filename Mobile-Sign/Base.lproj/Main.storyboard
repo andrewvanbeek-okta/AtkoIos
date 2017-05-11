@@ -163,6 +163,7 @@
                             <constraint firstItem="hXJ-SL-M3c" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="29" id="zdJ-EY-41B"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="X6X-rO-D24"/>
                     <connections>
                         <segue destination="IwQ-5i-RbJ" kind="show" identifier="authing" id="plc-U5-7Zl"/>
                     </connections>
@@ -187,25 +188,48 @@
                                 <rect key="frame" x="10" y="10" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="IwQ-5i-RbJ" kind="show" id="ftM-eX-5c7"/>
-                                </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JuR-5q-ZTX">
-                                <rect key="frame" x="0.0" y="74" width="320" height="494"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <connections>
-                        <outlet property="navView" destination="JuR-5q-ZTX" id="1Iu-tq-7kq"/>
-                    </connections>
+                    <toolbarItems>
+                        <barButtonItem title="Item" id="vG7-b6-jco">
+                            <connections>
+                                <segue destination="gcn-KT-XQi" kind="show" id="T8v-Mq-bAH"/>
+                            </connections>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="S2F-YF-2oP">
+                        <barButtonItem key="leftBarButtonItem" width="200" style="plain" id="M8J-V3-pUN">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="O7S-sf-PK8">
+                                <rect key="frame" x="16" y="7" width="145" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Back To Main">
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <font key="NSFont" size="20" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="HomeBack:" destination="G6Q-Vb-j4A" eventType="touchUpInside" id="PqL-Zx-9Oe"/>
+                                </connections>
+                            </button>
+                            <connections>
+                                <action selector="cheeky:" destination="G6Q-Vb-j4A" id="6QT-6Q-i7B"/>
+                                <segue destination="IwQ-5i-RbJ" kind="presentation" identifier="backToMain" id="snZ-uZ-MJO"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z33-0b-TOQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="129.375" y="-395.07042253521126"/>
+            <point key="canvasLocation" x="-109" y="-434"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="qsb-Qm-7rF">
@@ -312,7 +336,7 @@
                                                 </constraints>
                                                 <state key="normal" title="Button" image="Places (2).png"/>
                                                 <connections>
-                                                    <segue destination="G6Q-Vb-j4A" kind="show" id="wKV-1h-e4j"/>
+                                                    <segue destination="gcn-KT-XQi" kind="show" id="g68-PC-iSC"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -327,9 +351,9 @@
                                                     <constraint firstAttribute="height" constant="132" id="5cn-R9-b3W"/>
                                                     <constraint firstAttribute="width" constant="132" id="jOB-81-gwD"/>
                                                 </constraints>
-                                                <state key="normal" title="Button" image="Apps.png"/>
+                                                <state key="normal" title="Button" image="viewer.png"/>
                                                 <connections>
-                                                    <segue destination="xSu-VE-1fA" kind="show" id="45W-JM-WNF"/>
+                                                    <segue destination="yR4-U7-hy1" kind="show" id="h2I-Nh-lvf"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -347,7 +371,10 @@
                                             <constraint firstAttribute="width" constant="132" id="OM5-km-xRI"/>
                                             <constraint firstAttribute="height" constant="132" id="hxA-rk-sMg"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="contactit.png"/>
+                                        <state key="normal" title="Button" image="IT.png"/>
+                                        <connections>
+                                            <segue destination="zbe-s8-faS" kind="show" id="nsn-kg-bej"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -372,6 +399,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fJN-e6-2Uy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1114.6875" y="113.55633802816901"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pVj-ge-LIn">
+            <objects>
+                <navigationController id="gcn-KT-XQi" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="NcJ-Pw-rhC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="G6Q-Vb-j4A" kind="relationship" relationship="rootViewController" id="hYA-cX-epi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KVk-ha-eac" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="930" y="-582"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="E3D-uw-ltY">
@@ -421,13 +464,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jka-yo-UeZ">
-                                <rect key="frame" x="38" y="113" width="321" height="21"/>
+                                <rect key="frame" x="38" y="113" width="321" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Label">
+                                    <fragment content="Load">
                                         <attributes>
                                             <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                             <font key="NSFont" size="20" name="Futura-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
@@ -437,7 +481,15 @@
                                 <rect key="frame" x="38" y="157" width="240" height="338"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <attributedString key="attributedText"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Loading Info">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="Futura-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -460,6 +512,98 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PmP-8V-YsR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2344.6875" y="113.55633802816901"/>
+        </scene>
+        <!--Updater Controlelr-->
+        <scene sceneID="KUa-9X-sHJ">
+            <objects>
+                <viewController id="zbe-s8-faS" customClass="UpdaterControlelr" customModule="Mobile_Sign" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ubd-Qm-F9m"/>
+                        <viewControllerLayoutGuide type="bottom" id="w2J-Oy-8vw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="T5I-ff-wq6">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nXE-hk-0g4">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bBn-zl-V7p">
+                                        <rect key="frame" x="8" y="27" width="189" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="189" id="GgG-Bf-kYr"/>
+                                        </constraints>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Back to Main">
+                                                    <attributes>
+                                                        <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <font key="NSFont" size="20" name="Futura-Medium"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <segue destination="IwQ-5i-RbJ" kind="show" id="odT-6r-X20"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="X2f-wk-om9">
+                                <rect key="frame" x="-23" y="149" width="367" height="270"/>
+                                <state key="normal" image="Updater.png">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Update Location">
+                                            <attributes>
+                                                <color key="NSColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <font key="NSFont" size="24" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="updateLocation:" destination="zbe-s8-faS" eventType="touchUpInside" id="G92-CK-2HF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nXE-hk-0g4" firstAttribute="leading" secondItem="T5I-ff-wq6" secondAttribute="leading" id="4D7-77-ZJn"/>
+                            <constraint firstItem="X2f-wk-om9" firstAttribute="top" secondItem="nXE-hk-0g4" secondAttribute="bottom" constant="64" id="7jw-aU-fRr"/>
+                            <constraint firstItem="X2f-wk-om9" firstAttribute="centerY" secondItem="T5I-ff-wq6" secondAttribute="centerY" id="8Hm-lS-TV8"/>
+                            <constraint firstItem="X2f-wk-om9" firstAttribute="leading" secondItem="T5I-ff-wq6" secondAttribute="leadingMargin" constant="-39" id="KwS-S4-jvT"/>
+                            <constraint firstAttribute="bottom" secondItem="nXE-hk-0g4" secondAttribute="bottom" constant="483" id="RiC-A4-jPh"/>
+                            <constraint firstItem="nXE-hk-0g4" firstAttribute="top" secondItem="T5I-ff-wq6" secondAttribute="top" id="Tc7-Kl-0eO"/>
+                            <constraint firstAttribute="trailing" secondItem="nXE-hk-0g4" secondAttribute="trailing" id="fP1-BH-H6x"/>
+                            <constraint firstItem="X2f-wk-om9" firstAttribute="centerX" secondItem="nXE-hk-0g4" secondAttribute="centerX" id="hHy-v3-PPp"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Mu-sD-q04" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="877.5" y="1178.8732394366198"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4fO-cW-fvc">
+            <objects>
+                <navigationController id="yR4-U7-hy1" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="Bjx-XW-Pbn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Obc-Fb-TMn" kind="relationship" relationship="rootViewController" id="WRu-Cm-zKL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tkk-e4-4oO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1704" y="941"/>
         </scene>
         <!--App Web Controler-->
         <scene sceneID="3Wi-Yt-Jao">
@@ -543,21 +687,98 @@
             </objects>
             <point key="canvasLocation" x="3153.75" y="-215.49295774647888"/>
         </scene>
+        <!--Aug Controller-->
+        <scene sceneID="lFW-gp-bdn">
+            <objects>
+                <viewController id="Obc-Fb-TMn" customClass="AugController" customModule="Mobile_Sign" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HP1-NC-p0h"/>
+                        <viewControllerLayoutGuide type="bottom" id="dHi-2Q-H9p"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Udw-MG-EjP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="7AT-sZ-Ewd">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7AT-sZ-Ewd" firstAttribute="bottom" secondItem="dHi-2Q-H9p" secondAttribute="top" id="Xjf-IB-z5Z"/>
+                            <constraint firstItem="7AT-sZ-Ewd" firstAttribute="top" secondItem="Udw-MG-EjP" secondAttribute="top" id="Xs1-gL-spY"/>
+                            <constraint firstItem="7AT-sZ-Ewd" firstAttribute="leading" secondItem="Udw-MG-EjP" secondAttribute="leading" id="drf-O2-kTm"/>
+                            <constraint firstAttribute="trailing" secondItem="7AT-sZ-Ewd" secondAttribute="trailing" id="pIo-P9-TYB"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="m41-AE-Z4s">
+                        <barButtonItem key="leftBarButtonItem" width="16" style="plain" id="xgf-KG-7kt">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="8iq-Eh-kaa">
+                                <rect key="frame" x="16" y="7" width="121" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Back to Main">
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <font key="NSFont" size="20" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <segue destination="IwQ-5i-RbJ" kind="presentation" identifier="arsegue" id="NLd-vm-ulC"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="P3q-MM-KF3">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" id="1bY-CO-Be8">
+                                <rect key="frame" x="233" y="7" width="71" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Check">
+                                            <attributes>
+                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <font key="NSFont" size="20" name="Futura-Medium"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <connections>
+                                    <action selector="check:" destination="Obc-Fb-TMn" eventType="touchUpInside" id="Klv-A6-2XY"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="mapVIew" destination="7AT-sZ-Ewd" id="Kjp-Lk-7xh"/>
+                        <segue destination="IwQ-5i-RbJ" kind="presentation" id="09a-0q-Y9s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fwM-Nt-Ban" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3924.375" y="198.59154929577466"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="Apps.png" width="500" height="500"/>
         <image name="Contacts.png" width="500" height="500"/>
+        <image name="IT.png" width="500" height="500"/>
         <image name="Places (2).png" width="500" height="500"/>
         <image name="Profile (1).png" width="500" height="500"/>
         <image name="Register User.png" width="5000" height="2100"/>
         <image name="Sign In light finish.png" width="5000" height="2100"/>
+        <image name="Updater.png" width="500" height="500"/>
         <image name="Van Beek Tech.png" width="800" height="800"/>
         <image name="app background (1).png" width="1400" height="2200"/>
-        <image name="contactit.png" width="500" height="500"/>
         <image name="createbutton.png" width="5000" height="2100"/>
+        <image name="viewer.png" width="500" height="500"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ftM-eX-5c7"/>
+        <segue reference="plc-U5-7Zl"/>
         <segue reference="tgZ-Sp-cFD"/>
+        <segue reference="T8v-Mq-bAH"/>
     </inferredMetricsTieBreakers>
 </document>
