@@ -35,8 +35,8 @@ class UpdaterControlelr: CommonViewController, CLLocationManagerDelegate {
         location = locations[0]
                // Creates a marker in the center of the map.
 
-        let urla = "https://dev-885515.oktapreview.com/api/v1/users/00ua37ke0cpMWtaVr0h7"
-        let header: [String : String] = ["Authorization" : "SSWS 0062IiqfTB-b2MwADd5l7XEJLrQXJHl0CW079NrdUg"]
+        let urla = "https://dev-885515.oktapreview.com/api/v1/users/\(userId)"
+        let header: [String : String] = ["Authorization" : appConfig.token as String!]
         let sendLat = location.coordinate.latitude
         let sendLon = location.coordinate.longitude
         let profile = ["profile": ["LoginLat": sendLat, "LoginLon": sendLon]]

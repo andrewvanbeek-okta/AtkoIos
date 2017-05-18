@@ -41,22 +41,11 @@ class MapsController: CommonViewController, CLLocationManagerDelegate {
         marker.position = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
         marker.title = "You"
         marker.snippet = "Now"
-        marker.map = mapView
-//        let urla = "https://dev-885515.oktapreview.com/api/v1/users/00ua37ke0cpMWtaVr0h7"
-        let header: [String : String] = ["Authorization" : "SSWS 0062IiqfTB-b2MwADd5l7XEJLrQXJHl0CW079NrdUg"]
-//        let sendLat = location.coordinate.latitude 
-//        let sendLon = location.coordinate.longitude 
-//        let profile = ["profile": ["LoginLat": sendLat, "LoginLon": sendLon]]
-//        
-//        Alamofire.request(urla, method: .post, parameters: profile, encoding: JSONEncoding.default, headers: header).responseJSON{ response in
-//            guard response.result.error == nil else {
-//                return
-//            }
-//        }
-        
+        let header: [String : String] = ["Authorization" : appConfig.token as String!]
+
         manager.stopUpdatingLocation()
         
-          let url = "https://dev-885515.oktapreview.com/api/v1/logs?q=Andrew"
+          let url = "https://dev-885515.oktapreview.com/api/v1/logs?q=okta"
             Alamofire.request(url, headers: header).responseJSON{ response in
                 guard response.result.error == nil else {
                     print("turn up")
@@ -74,28 +63,37 @@ class MapsController: CommonViewController, CLLocationManagerDelegate {
                             let response = allResponses[i] as! NSDictionary
                             let client = response["client"] as! NSDictionary
                         if(client["geographicalContext"] != nil){
-                            print(response)
                             var device = String()
-                            if(client["device"] != nil){
-                                device = client["device"] as! String
-                            }
+                         
                             let time = response["published"] as! String
-                            let geoContext = client["geographicalContext"] as! NSDictionary
-                            if(geoContext["geolocation"] != nil){
-                                print(geoContext)
-                                let geoLocation = geoContext["geolocation"] as! NSDictionary
-                                if(geoLocation["lat"] != nil){
-                                    _ = NumberFormatter()
-                                    let latitude = geoLocation["lat"] as! Float
-                                    let longitude = geoLocation["lon"] as! Float
-                                    let mark = GMSMarker()
-                                    mark.position = CLLocationCoordinate2D(latitude: CLLocationDegrees(latitude), longitude: CLLocationDegrees(longitude))
-                                    mark.snippet = time
-                                    mark.title = device
-                                    mark.map = mapView
+                            if let geoContext = client["geographicalContext"] as? NSDictionary{
+                                let geoContext = client["geographicalContext"] as! NSDictionary
+                                if(geoContext["geolocation"] != nil){
+                                    print(geoContext)
+                                    let geoLocation = geoContext["geolocation"] as! NSDictionary
+                                    if(geoLocation["lat"] != nil){
+                                        _ = NumberFormatter()
+                                        let latitude = geoLocation["lat"] as! Float
+                                        let longitude = geoLocation["lon"] as! Float
+                                        let mark = GMSMarker()
+                                        if(client["device"] != nil){
+                                            if let device = client["device"] as? String {
+                                                let device = client["device"] as! String
+                                                mark.title = device
+                                            } else {
+                                                mark.title = "unknown" as! String
+                                            }
+                                        }
+                                        mark.position = CLLocationCoordinate2D(latitude: CLLocationDegrees(latitude), longitude: CLLocationDegrees(longitude))
+                                        mark.snippet = time
+                                        mark.map = mapView
+                                    }
                                 }
+
+
                             }
-                        }
+
+                                                  }
                     }
                     print("break")
                     return

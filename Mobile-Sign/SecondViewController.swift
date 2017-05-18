@@ -26,7 +26,6 @@ class SecondViewController: CommonViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-            print("TURN UP TURN UP")
         self.loadState()
         print(authState as Any)
         // Do any additional setup after loading the view, typically from a nib.
@@ -34,7 +33,7 @@ class SecondViewController: CommonViewController {
         let token = (authState?.lastTokenResponse?.accessToken)! as String
         print(token)
         print(url)
-//        if(token != nil){
+
             let header : [String : String] = ["Authorization" : "Bearer \(token)"]
         Alamofire.request(url, headers: header).responseJSON{ response in
             guard response.result.error == nil else {
@@ -61,17 +60,8 @@ class SecondViewController: CommonViewController {
       
 
         }
-//        }
-        Alamofire.request("https://dev-885515.oktapreview.com/oauth2/ausaeb2svnW54G3RT0h7", headers: header).responseJSON{ response in
-            guard response.result.error != nil else {
-                print(response)
-                return
-            }
-            guard response.result.error == nil else {
-                print(response)
-                return
-            }
-        }
+
+
     }
     
     override func didReceiveMemoryWarning() {
@@ -86,7 +76,7 @@ class SecondViewController: CommonViewController {
     @IBOutlet weak var userPerson: UIButton!
     func logThemOut() {
         
-        print("TEEEEEEST")
+        print("User Logged Out")
         let gotoplace: String = "\(appConfig.kIssuer as String)/api/v1/users/\(userId)/sessions"
         let header: [String : String] = ["Authorization" : appConfig.token as! String]
         
@@ -95,14 +85,12 @@ class SecondViewController: CommonViewController {
                 
                 guard response.result.error == nil else {
                     // got an error in getting the data, need to handle it
-                    print("error calling POST on /lists")
                     print(response.result.error!)
                     return
                 }
                 
                 guard response.result.error != nil else {
                     // got an error in getting the data, need to handle it
-                    print("error calling POST on /lists")
                     print(response)
                     return
                 }

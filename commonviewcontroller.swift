@@ -25,6 +25,7 @@ var returnValue: Any?
 var authRespDictionary: NSDictionary?
 
 
+
 class CommonViewController : UIViewController, OIDAuthStateChangeDelegate {
     
 //
@@ -94,23 +95,33 @@ func setAuthState(_ authStatenow:OIDAuthState?){
     override func viewDidLoad() {
         super.viewDidLoad()
         refreshTokens()
-        var timer = Timer.scheduledTimer(timeInterval: 10.0, target: self, selector: #selector(CommonViewController.checker), userInfo: nil, repeats: true)
-        let path = Bundle.main.path(forResource: "newyork", ofType: "mp4")
-        var player = AVPlayer(url: NSURL(fileURLWithPath: path!) as URL)
-        let playerLayer = AVPlayerLayer(player: player)
-        playerLayer.frame = self.view.frame
-        playerLayer.zPosition = -1
-        playerLayer.videoGravity = AVLayerVideoGravityResizeAspectFill
-        self.view.layer.addSublayer(playerLayer)
-        player.seek(to: kCMTimeZero);
-        player.play()
-        func loopVideo(videoPlayer: AVPlayer) {
-            NotificationCenter.default.addObserver(forName: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: nil, queue: nil) { notification in
-                videoPlayer.seek(to: kCMTimeZero)
-                videoPlayer.play()
-            }
-        }
-        loopVideo(videoPlayer: player)
+        //if you want to use a video background uncomment this
+//        let path = Bundle.main.path(forResource: "newyork", ofType: "mp4")
+//        var player = AVPlayer(url: NSURL(fileURLWithPath: path!) as URL)
+//        let playerLayer = AVPlayerLayer(player: player)
+//        playerLayer.frame = self.view.frame
+//        playerLayer.zPosition = -1
+//        playerLayer.videoGravity = AVLayerVideoGravityResizeAspectFill
+//        self.view.layer.addSublayer(playerLayer)
+//        player.seek(to: kCMTimeZero);
+//        player.play()
+//        func loopVideo(videoPlayer: AVPlayer) {
+//            NotificationCenter.default.addObserver(forName: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: nil, queue: nil) { notification in
+//                videoPlayer.seek(to: kCMTimeZero)
+//                videoPlayer.play()
+//            }
+//        }
+//        loopVideo(videoPlayer: player)
+        UIGraphicsBeginImageContext(self.view.frame.size)
+        UIImage(named: "mobileapp-bg")?.draw(in: self.view.bounds)
+        
+        let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
+        
+        UIGraphicsEndImageContext()
+        
+        self.view.backgroundColor = UIColor(patternImage: image)
+
+
 
     }
     

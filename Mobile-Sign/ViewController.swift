@@ -22,60 +22,14 @@ var sessToken : String = String()
 
 
 class ViewController: CommonViewController {
-
-    let safariVC = SecondViewController()
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let issuer = URL(string: appConfig.kIssuer)
-        
-        OIDAuthorizationService.discoverConfiguration(forIssuer: issuer!) {
-            config, error in
-            
-            if ((config == nil)) {
-                print("Error retrieving discovery document: \(error?.localizedDescription)")
-                return
-            }
-            //config document on the endpoints
-            print("Retrieved configuration: \(config!)")
-        }
-        
-        var reqParams = ["username": "andrew.vanbeek",
-                         "password": "Vanawsome8839!!"]
-        
-        print("CHECK THIS DUDE")
-        
-        
-
-     
-                 // make sure we got some JSON since that's what we expect
-        
-        
-            //self.performSegue(withIdentifier: "killSession", sender: nil)
-        
-        
-        
-        
-        
-
-
         self.loadState()
-            return
     }
     
-  
-
-
-
     @IBOutlet weak var username: UITextField!
     @IBOutlet weak var password: UITextField!
-    
-
-  
-    
-
-    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -125,8 +79,6 @@ class ViewController: CommonViewController {
             
             let appDelegate = UIApplication.shared.delegate as! AppDelegate
             
-            
-            
             print("Initiating Authorization Request: \(request)")
             appDelegate.currentAuthorizationFlow =
                 OIDAuthState.authState(byPresenting: request, presenting: self){
@@ -145,14 +97,6 @@ class ViewController: CommonViewController {
                     }
             }
         }
-
-        
-            
-
-
-//            var gotoplace = "https://your-subdomain.okta.com/oauth2/v1/authorize?client_id={clientId}&response_type=id_token&scope=openid&prompt=none&redirect_uri=https%3A%2F%2Fyour-app.example.com&state=Af0ifjslDkj&nonce=n-0S6_WzA2Mj&sessionToken=0HsohZYpJgMSHwmL9TQy7RRzuY"
-       
-        
         
      }
 

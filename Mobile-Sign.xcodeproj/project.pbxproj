@@ -11,9 +11,7 @@
 		41879AED43AA09CDE91C1E98 /* Pods_Mobile_Sign.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A9D86FADC7A282FF86DB98 /* Pods_Mobile_Sign.framework */; };
 		93199CA11E9DC8AA00918306 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93199CA01E9DC8AA00918306 /* SecondViewController.swift */; };
 		93199CA31E9DF23900918306 /* commonviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93199CA21E9DF23900918306 /* commonviewcontroller.swift */; };
-		93199CA71E9E679800918306 /* newyork.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 93199CA61E9E679800918306 /* newyork.mp4 */; };
 		93199CA91E9E87B700918306 /* Van Beek Tech.png in Resources */ = {isa = PBXBuildFile; fileRef = 93199CA81E9E87B700918306 /* Van Beek Tech.png */; };
-		93199CAB1E9E91A000918306 /* Sign In Black.png in Resources */ = {isa = PBXBuildFile; fileRef = 93199CAA1E9E91A000918306 /* Sign In Black.png */; };
 		93277B2B1EAEB21300C0FDE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93277B291EAEB21300C0FDE4 /* Main.storyboard */; };
 		9339AF301E9D9CB2001431C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9339AF2F1E9D9CB2001431C2 /* AppDelegate.swift */; };
 		9339AF321E9D9CB2001431C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9339AF311E9D9CB2001431C2 /* ViewController.swift */; };
@@ -21,14 +19,10 @@
 		9339AF3A1E9D9CB2001431C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9339AF381E9D9CB2001431C2 /* LaunchScreen.storyboard */; };
 		9339AF451E9D9CB2001431C2 /* Mobile_SignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9339AF441E9D9CB2001431C2 /* Mobile_SignTests.swift */; };
 		9339AF501E9D9CB2001431C2 /* Mobile_SignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9339AF4F1E9D9CB2001431C2 /* Mobile_SignUITests.swift */; };
-		937D5CB31EBE3F2C00247D9A /* CustomSafari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937D5CB21EBE3F2C00247D9A /* CustomSafari.swift */; };
 		93D3F3B61EA69D9D00902FE6 /* app background.png in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F3B51EA69D9D00902FE6 /* app background.png */; };
 		93D3F3BA1EA6FE9D00902FE6 /* Profile (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F3B91EA6FE9D00902FE6 /* Profile (1).png */; };
 		93D3F3BC1EA700F000902FE6 /* Contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F3BB1EA700F000902FE6 /* Contacts.png */; };
 		93D3F3C01EA7055500902FE6 /* Places (2).png in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F3BF1EA7055500902FE6 /* Places (2).png */; };
-		93D3F3C41EA72CB800902FE6 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F3C31EA72CB800902FE6 /* MyCollectionViewCell.swift */; };
-		93D3F3C61EA7B68F00902FE6 /* Apps.png in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F3C51EA7B68F00902FE6 /* Apps.png */; };
-		93D3F3C81EA7CA1100902FE6 /* contactit.png in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F3C71EA7CA1100902FE6 /* contactit.png */; };
 		93D3F3CA1EA7CD3600902FE6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F3C91EA7CD3600902FE6 /* ProfileViewController.swift */; };
 		93D3F3CC1EA7F15200902FE6 /* app background (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F3CB1EA7F15200902FE6 /* app background (1).png */; };
 		93D3F3CE1EA92DCC00902FE6 /* ContactsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F3CD1EA92DCC00902FE6 /* ContactsController.swift */; };
@@ -41,6 +35,9 @@
 		93DDA70F1EA05AAF0024D1A3 /* Sign In light finish.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DDA70E1EA05AAF0024D1A3 /* Sign In light finish.png */; };
 		93DDA7111EA06E490024D1A3 /* Register User.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DDA7101EA06E490024D1A3 /* Register User.png */; };
 		93DDA7151EA0733B0024D1A3 /* createbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DDA7141EA0733B0024D1A3 /* createbutton.png */; };
+		93E68E471ECD26CE0009BAFD /* mobileapp-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E68E461ECD26CE0009BAFD /* mobileapp-bg.png */; };
+		93E68E491ECD2C240009BAFD /* atkologo.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E68E481ECD2C240009BAFD /* atkologo.png */; };
+		93E68E4D1ECD30780009BAFD /* atkologowhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E68E4C1ECD30780009BAFD /* atkologowhite.png */; };
 		93E700681EAF1FBC00534E69 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E700671EAF1FBC00534E69 /* CoreMotion.framework */; };
 		93E7006A1EAF21E300534E69 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E700691EAF21E300534E69 /* MapKit.framework */; };
 		93E700701EAF9B0A00534E69 /* AugController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E7006F1EAF9B0A00534E69 /* AugController.swift */; };
@@ -87,9 +84,7 @@
 		86E55E49DE50686827E62043 /* Pods-Mobile-Sign.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobile-Sign.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mobile-Sign/Pods-Mobile-Sign.release.xcconfig"; sourceTree = "<group>"; };
 		93199CA01E9DC8AA00918306 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		93199CA21E9DF23900918306 /* commonviewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = commonviewcontroller.swift; path = ../commonviewcontroller.swift; sourceTree = "<group>"; };
-		93199CA61E9E679800918306 /* newyork.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = newyork.mp4; sourceTree = "<group>"; };
 		93199CA81E9E87B700918306 /* Van Beek Tech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Van Beek Tech.png"; sourceTree = "<group>"; };
-		93199CAA1E9E91A000918306 /* Sign In Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign In Black.png"; sourceTree = "<group>"; };
 		93277B2A1EAEB21300C0FDE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9339AF2C1E9D9CB2001431C2 /* Mobile-Sign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile-Sign.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9339AF2F1E9D9CB2001431C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -103,14 +98,10 @@
 		9339AF4B1E9D9CB2001431C2 /* Mobile-SignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mobile-SignUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9339AF4F1E9D9CB2001431C2 /* Mobile_SignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile_SignUITests.swift; sourceTree = "<group>"; };
 		9339AF511E9D9CB2001431C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		937D5CB21EBE3F2C00247D9A /* CustomSafari.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSafari.swift; sourceTree = "<group>"; };
 		93D3F3B51EA69D9D00902FE6 /* app background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app background.png"; sourceTree = "<group>"; };
 		93D3F3B91EA6FE9D00902FE6 /* Profile (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Profile (1).png"; sourceTree = "<group>"; };
 		93D3F3BB1EA700F000902FE6 /* Contacts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contacts.png; sourceTree = "<group>"; };
 		93D3F3BF1EA7055500902FE6 /* Places (2).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Places (2).png"; sourceTree = "<group>"; };
-		93D3F3C31EA72CB800902FE6 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
-		93D3F3C51EA7B68F00902FE6 /* Apps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apps.png; sourceTree = "<group>"; };
-		93D3F3C71EA7CA1100902FE6 /* contactit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contactit.png; sourceTree = "<group>"; };
 		93D3F3C91EA7CD3600902FE6 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		93D3F3CB1EA7F15200902FE6 /* app background (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app background (1).png"; sourceTree = "<group>"; };
 		93D3F3CD1EA92DCC00902FE6 /* ContactsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsController.swift; sourceTree = "<group>"; };
@@ -123,6 +114,9 @@
 		93DDA70E1EA05AAF0024D1A3 /* Sign In light finish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Sign In light finish.png"; sourceTree = "<group>"; };
 		93DDA7101EA06E490024D1A3 /* Register User.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Register User.png"; sourceTree = "<group>"; };
 		93DDA7141EA0733B0024D1A3 /* createbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = createbutton.png; sourceTree = "<group>"; };
+		93E68E461ECD26CE0009BAFD /* mobileapp-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mobileapp-bg.png"; path = "../../../../Downloads/mobileapp-bg.png"; sourceTree = "<group>"; };
+		93E68E481ECD2C240009BAFD /* atkologo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = atkologo.png; path = ../../../../Downloads/atkologo.png; sourceTree = "<group>"; };
+		93E68E4C1ECD30780009BAFD /* atkologowhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = atkologowhite.png; path = ../../../../Downloads/atkologowhite.png; sourceTree = "<group>"; };
 		93E700671EAF1FBC00534E69 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		93E700691EAF21E300534E69 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		93E7006F1EAF9B0A00534E69 /* AugController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AugController.swift; path = ../AugController.swift; sourceTree = "<group>"; };
@@ -231,7 +225,6 @@
 				93199CA21E9DF23900918306 /* commonviewcontroller.swift */,
 				9339AF2F1E9D9CB2001431C2 /* AppDelegate.swift */,
 				9339AF311E9D9CB2001431C2 /* ViewController.swift */,
-				937D5CB21EBE3F2C00247D9A /* CustomSafari.swift */,
 				93E7008B1EB8F80400534E69 /* Updater.png */,
 				93DDA7081EA04F2D0024D1A3 /* models.swift */,
 				93199CA01E9DC8AA00918306 /* SecondViewController.swift */,
@@ -248,8 +241,10 @@
 				93E700771EAFAD5400534E69 /* ARAnnotationView.swift */,
 				93E700791EAFAD5D00534E69 /* ARAnnotation.swift */,
 				93E7007B1EAFADB200534E69 /* DebugMapViewController.swift */,
+				93E68E481ECD2C240009BAFD /* atkologo.png */,
 				93E700751EAFAD4C00534E69 /* ARConfiguration.swift */,
 				93DDA70A1EA055200024D1A3 /* RegisterController.swift */,
+				93E68E461ECD26CE0009BAFD /* mobileapp-bg.png */,
 				93E700871EB8F23200534E69 /* IT.png */,
 				93DDA70E1EA05AAF0024D1A3 /* Sign In light finish.png */,
 				9339AF361E9D9CB2001431C2 /* Assets.xcassets */,
@@ -258,18 +253,14 @@
 				93D3F3D51EAC60D100902FE6 /* MapsController.swift */,
 				93E700851EB0F16A00534E69 /* UpdaterController.swift */,
 				93DDA7101EA06E490024D1A3 /* Register User.png */,
-				93199CA61E9E679800918306 /* newyork.mp4 */,
+				93E68E4C1ECD30780009BAFD /* atkologowhite.png */,
 				93199CA81E9E87B700918306 /* Van Beek Tech.png */,
 				93D3F3B51EA69D9D00902FE6 /* app background.png */,
 				93DDA70C1EA0599F0024D1A3 /* sign-in-transparent.png */,
 				93DDA7141EA0733B0024D1A3 /* createbutton.png */,
 				93D3F3B91EA6FE9D00902FE6 /* Profile (1).png */,
-				93D3F3C31EA72CB800902FE6 /* MyCollectionViewCell.swift */,
-				93199CAA1E9E91A000918306 /* Sign In Black.png */,
 				93D3F3BB1EA700F000902FE6 /* Contacts.png */,
 				93D3F3BF1EA7055500902FE6 /* Places (2).png */,
-				93D3F3C71EA7CA1100902FE6 /* contactit.png */,
-				93D3F3C51EA7B68F00902FE6 /* Apps.png */,
 				93D3F3CF1EA95BFA00902FE6 /* tablebg.png */,
 				93D3F3CB1EA7F15200902FE6 /* app background (1).png */,
 			);
@@ -420,20 +411,19 @@
 				93E700881EB8F23200534E69 /* IT.png in Resources */,
 				9339AF3A1E9D9CB2001431C2 /* LaunchScreen.storyboard in Resources */,
 				93DDA7111EA06E490024D1A3 /* Register User.png in Resources */,
-				93199CA71E9E679800918306 /* newyork.mp4 in Resources */,
+				93E68E471ECD26CE0009BAFD /* mobileapp-bg.png in Resources */,
 				93199CA91E9E87B700918306 /* Van Beek Tech.png in Resources */,
 				93DDA70F1EA05AAF0024D1A3 /* Sign In light finish.png in Resources */,
 				9339AF371E9D9CB2001431C2 /* Assets.xcassets in Resources */,
 				93D3F3D01EA95BFA00902FE6 /* tablebg.png in Resources */,
-				93D3F3C81EA7CA1100902FE6 /* contactit.png in Resources */,
+				93E68E4D1ECD30780009BAFD /* atkologowhite.png in Resources */,
+				93E68E491ECD2C240009BAFD /* atkologo.png in Resources */,
 				93DDA7151EA0733B0024D1A3 /* createbutton.png in Resources */,
 				93D3F3CC1EA7F15200902FE6 /* app background (1).png in Resources */,
 				93D3F3B61EA69D9D00902FE6 /* app background.png in Resources */,
 				93E7008C1EB8F80500534E69 /* Updater.png in Resources */,
-				93D3F3C61EA7B68F00902FE6 /* Apps.png in Resources */,
 				93277B2B1EAEB21300C0FDE4 /* Main.storyboard in Resources */,
 				93D3F3C01EA7055500902FE6 /* Places (2).png in Resources */,
-				93199CAB1E9E91A000918306 /* Sign In Black.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,7 +588,6 @@
 			files = (
 				93DDA7091EA04F2D0024D1A3 /* models.swift in Sources */,
 				93E7007A1EAFAD5D00534E69 /* ARAnnotation.swift in Sources */,
-				93D3F3C41EA72CB800902FE6 /* MyCollectionViewCell.swift in Sources */,
 				93199CA11E9DC8AA00918306 /* SecondViewController.swift in Sources */,
 				93E700821EAFD0C000534E69 /* PlaceAnnotationswift.swift in Sources */,
 				93DDA70B1EA055200024D1A3 /* RegisterController.swift in Sources */,
@@ -606,7 +595,6 @@
 				93D3F3CE1EA92DCC00902FE6 /* ContactsController.swift in Sources */,
 				93E700721EAFAD3B00534E69 /* ARViewController.swift in Sources */,
 				93E700781EAFAD5400534E69 /* ARAnnotationView.swift in Sources */,
-				937D5CB31EBE3F2C00247D9A /* CustomSafari.swift in Sources */,
 				93199CA31E9DF23900918306 /* commonviewcontroller.swift in Sources */,
 				93D3F3D61EAC60D100902FE6 /* MapsController.swift in Sources */,
 				93E700761EAFAD4C00534E69 /* ARConfiguration.swift in Sources */,
@@ -774,7 +762,7 @@
 				DEVELOPMENT_TEAM = RJ2SYXWQS9;
 				INFOPLIST_FILE = "Mobile-Sign/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "avb.Mobile-Sign";
+				PRODUCT_BUNDLE_IDENTIFIER = "avb.Mobile-Signse";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -788,7 +776,7 @@
 				DEVELOPMENT_TEAM = RJ2SYXWQS9;
 				INFOPLIST_FILE = "Mobile-Sign/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "avb.Mobile-Sign";
+				PRODUCT_BUNDLE_IDENTIFIER = "avb.Mobile-Signse";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
