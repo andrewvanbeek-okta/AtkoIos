@@ -86,9 +86,9 @@ class AugController: UIViewController, CLLocationManagerDelegate {
                 let span = MKCoordinateSpan(latitudeDelta: 0.014, longitudeDelta: 0.014)
                 let region = MKCoordinateRegion(center: location.coordinate, span: span)
                 mapVIew.region = region
-                var url = "https://dev-885515.oktapreview.com/api/v1/users"
+                var url = "\(appConfig.kIssuer as String)/api/v1/users"
                 if(token != nil){
-                    let header: [String : String] = ["Authorization" : "SSWS 0062IiqfTB-b2MwADd5l7XEJLrQXJHl0CW079NrdUg"]
+                    let header: [String : String] = ["Authorization" : appConfig.token as String!]
                     Alamofire.request(url, headers: header).responseJSON{ response in
                         var tableInfoToBeInserted = [String]()
                         guard response.result.error != nil else {

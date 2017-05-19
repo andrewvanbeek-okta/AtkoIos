@@ -1,7 +1,7 @@
 //
 //  ARViewController.swift
 //  HDAugmentedRealityDemo
-//
+//  HD Aug libary Section borrowed from Daniel Huis
 //  Created by Danijel Huis on 23/04/15.
 //  Copyright (c) 2015 Danijel Huis. All rights reserved.
 //

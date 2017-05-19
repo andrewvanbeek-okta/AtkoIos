@@ -1,4 +1,4 @@
-//
+//  HD Aug libary Section borrowed from Daniel Huis
 //  Annotation.swift
 //  Mobile-Sign
 //

@@ -1,3 +1,5 @@
+//  HD Aug libary Section borrowed from Daniel Huis
+
 import CoreLocation
 import UIKit
 
