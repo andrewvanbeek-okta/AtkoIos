@@ -20,7 +20,7 @@ class ContactsController: UITableViewController {
     
     //MARK: INSTANCE VARIABLES & CONSTANTS
     
-    var table = ["Loading Users", "YUCJ"]
+    var table = ["Loading Users", ""]
     
     
     
@@ -129,7 +129,7 @@ class ContactsController: UITableViewController {
         
         let screenSize: CGRect = UIScreen.main.bounds
         let screenWidth = screenSize.width
-        let scale: CGFloat = CGFloat(table.count)
+        let scale: CGFloat = CGFloat(table.count * 10)
         let screenHeight = screenSize.height * scale
         imageView.frame = CGRect(x: 0, y: 0, width: screenWidth, height: screenHeight)
         view.addSubview(imageView)

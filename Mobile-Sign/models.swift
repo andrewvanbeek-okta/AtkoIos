@@ -17,6 +17,7 @@ class OktaConfiguration {
     let kAppAuthExampleAuthStateKey: String!
     let apiEndpoint: URL!
     let token: String!
+    let gmapsKey: String!
     
     
     init(){
@@ -26,6 +27,7 @@ class OktaConfiguration {
         kRedirectURI = " replace with redirect uri" //redirect URI fro
         kAppAuthExampleAuthStateKey = "com.okta.openid.authState"
         token = "SSWS (keep the SWSS part) but add api token value" //Keep the SWSS before the API key like SWSS XXXXXXXXXXXXXXX
+          gmapsKey = "key in setup doc"
         
     }
     

@@ -45,7 +45,7 @@ class MapsController: CommonViewController, CLLocationManagerDelegate {
 
         manager.stopUpdatingLocation()
         
-          let url = "https://dev-885515.oktapreview.com/api/v1/logs?q=okta"
+          let url = "\(appConfig.kIssuer as String)/api/v1/logs?q=okta"
             Alamofire.request(url, headers: header).responseJSON{ response in
                 guard response.result.error == nil else {
                     print("turn up")
