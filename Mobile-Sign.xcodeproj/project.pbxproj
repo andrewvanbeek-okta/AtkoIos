@@ -12,6 +12,7 @@
 		93199CA11E9DC8AA00918306 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93199CA01E9DC8AA00918306 /* SecondViewController.swift */; };
 		93199CA31E9DF23900918306 /* commonviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93199CA21E9DF23900918306 /* commonviewcontroller.swift */; };
 		93199CA91E9E87B700918306 /* Van Beek Tech.png in Resources */ = {isa = PBXBuildFile; fileRef = 93199CA81E9E87B700918306 /* Van Beek Tech.png */; };
+		9326A24A1EDB65020080C6FF /* viewer.png in Resources */ = {isa = PBXBuildFile; fileRef = 9326A2491EDB65020080C6FF /* viewer.png */; };
 		93277B2B1EAEB21300C0FDE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93277B291EAEB21300C0FDE4 /* Main.storyboard */; };
 		9339AF301E9D9CB2001431C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9339AF2F1E9D9CB2001431C2 /* AppDelegate.swift */; };
 		9339AF321E9D9CB2001431C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9339AF311E9D9CB2001431C2 /* ViewController.swift */; };
@@ -41,7 +42,6 @@
 		93E700821EAFD0C000534E69 /* PlaceAnnotationswift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E700811EAFD0C000534E69 /* PlaceAnnotationswift.swift */; };
 		93E700841EB0197600534E69 /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E700831EB0197500534E69 /* AnnotationView.swift */; };
 		93E700861EB0F16A00534E69 /* UpdaterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E700851EB0F16A00534E69 /* UpdaterController.swift */; };
-		93E7008A1EB8F5B600534E69 /* viewer.png in Resources */ = {isa = PBXBuildFile; fileRef = 93E700891EB8F5B600534E69 /* viewer.png */; };
 		93F053841ECF2CEB0066401E /* atkologowhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 93F053831ECF2CEB0066401E /* atkologowhite.png */; };
 		93F053861ECF2D1C0066401E /* mobileapp-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 93F053851ECF2D1C0066401E /* mobileapp-bg.png */; };
 		93F0538C1ECF2D890066401E /* ARAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F053871ECF2D880066401E /* ARAnnotation.swift */; };
@@ -84,6 +84,7 @@
 		93199CA01E9DC8AA00918306 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		93199CA21E9DF23900918306 /* commonviewcontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = commonviewcontroller.swift; path = ../commonviewcontroller.swift; sourceTree = "<group>"; };
 		93199CA81E9E87B700918306 /* Van Beek Tech.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Van Beek Tech.png"; sourceTree = "<group>"; };
+		9326A2491EDB65020080C6FF /* viewer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = viewer.png; sourceTree = "<group>"; };
 		93277B2A1EAEB21300C0FDE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9339AF2C1E9D9CB2001431C2 /* Mobile-Sign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mobile-Sign.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9339AF2F1E9D9CB2001431C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -119,7 +120,6 @@
 		93E700811EAFD0C000534E69 /* PlaceAnnotationswift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceAnnotationswift.swift; sourceTree = "<group>"; };
 		93E700831EB0197500534E69 /* AnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
 		93E700851EB0F16A00534E69 /* UpdaterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdaterController.swift; sourceTree = "<group>"; };
-		93E700891EB8F5B600534E69 /* viewer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = viewer.png; path = ../../../../Downloads/viewer.png; sourceTree = "<group>"; };
 		93F053831ECF2CEB0066401E /* atkologowhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = atkologowhite.png; sourceTree = "<group>"; };
 		93F053851ECF2D1C0066401E /* mobileapp-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mobileapp-bg.png"; sourceTree = "<group>"; };
 		93F053871ECF2D880066401E /* ARAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARAnnotation.swift; sourceTree = "<group>"; };
@@ -230,7 +230,6 @@
 				93F053931ECF30FB0066401E /* PlacesLoader.swift */,
 				93F053951ECF3F650066401E /* Updater.png */,
 				93E700811EAFD0C000534E69 /* PlaceAnnotationswift.swift */,
-				93E700891EB8F5B600534E69 /* viewer.png */,
 				93D3F3C91EA7CD3600902FE6 /* ProfileViewController.swift */,
 				93277B291EAEB21300C0FDE4 /* Main.storyboard */,
 				93E700831EB0197500534E69 /* AnnotationView.swift */,
@@ -244,6 +243,7 @@
 				93DDA70E1EA05AAF0024D1A3 /* Sign In light finish.png */,
 				9339AF361E9D9CB2001431C2 /* Assets.xcassets */,
 				9339AF381E9D9CB2001431C2 /* LaunchScreen.storyboard */,
+				9326A2491EDB65020080C6FF /* viewer.png */,
 				9339AF3B1E9D9CB2001431C2 /* Info.plist */,
 				93D3F3D51EAC60D100902FE6 /* MapsController.swift */,
 				93E700851EB0F16A00534E69 /* UpdaterController.swift */,
@@ -406,7 +406,6 @@
 				93D3F3BA1EA6FE9D00902FE6 /* Profile (1).png in Resources */,
 				93F053981ECF3FAA0066401E /* IT.png in Resources */,
 				93D3F3BC1EA700F000902FE6 /* Contacts.png in Resources */,
-				93E7008A1EB8F5B600534E69 /* viewer.png in Resources */,
 				93F053961ECF3F650066401E /* Updater.png in Resources */,
 				9339AF3A1E9D9CB2001431C2 /* LaunchScreen.storyboard in Resources */,
 				93DDA7111EA06E490024D1A3 /* Register User.png in Resources */,
@@ -418,6 +417,7 @@
 				93D3F3CC1EA7F15200902FE6 /* app background (1).png in Resources */,
 				93D3F3B61EA69D9D00902FE6 /* app background.png in Resources */,
 				93277B2B1EAEB21300C0FDE4 /* Main.storyboard in Resources */,
+				9326A24A1EDB65020080C6FF /* viewer.png in Resources */,
 				93F053861ECF2D1C0066401E /* mobileapp-bg.png in Resources */,
 				93D3F3C01EA7055500902FE6 /* Places (2).png in Resources */,
 			);

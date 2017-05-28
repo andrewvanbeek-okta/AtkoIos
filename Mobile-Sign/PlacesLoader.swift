@@ -11,7 +11,10 @@ import CoreLocation
 
 struct PlacesLoader {
     let apiURL = "https://maps.googleapis.com/maps/api/place/"
-    let apiKey = "" //go to google to generate a google maps key
+    var appConfig = OktaConfiguration()
+
+
+    let apiKey = appConfig.gmapsKey
     
     func loadPOIS(location: CLLocation, radius: Int = 30, handler: @escaping (NSDictionary?, NSError?) -> Void) {
         print("Load pois")
