@@ -4,4 +4,4 @@ This is an app that shows how Okta Sign in works with IoS.  Also plays around wi
 
 For setup instructions proceed to this link
 
-https://okta.app.box.com/notes/176057667408
+https://okta.box.com/s/0m89z2mysrsog5tuwmjahzwcee3kci5g
